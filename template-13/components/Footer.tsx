@@ -9,7 +9,7 @@ export default function Footer() {
         <p>So that we can talk more about...</p>
       </div>
       <div className="flex justify-center items-center">
-        <a target="_blank" href="https://www.linkedin.com/in/diederik-eyckmans-4719071a6/"><img src="/LinkedIn.svg" alt="Image" /></a>
+        <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/diederik-eyckmans-4719071a6/"><img src="/LinkedIn.svg" alt="Image" /></a>
       </div>
     </div>
   );
