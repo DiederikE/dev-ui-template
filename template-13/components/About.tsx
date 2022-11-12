@@ -12,10 +12,12 @@ export default function About() {
           A bit <span className="text-white">about me</span>
         </h1>
         <h1 className="max-w-3xl text-3xl text-gray-500">
-          I am a UI/UX designer who is passionate about creating{" "}
+        I am a student of <span className="px-1 text-white">applied computer science</span>.
+        I am often involved in developing <span className="px-1 text-white">software projects</span>. 
+        In the past I already completed an applied computer science course at <span className="px-1 text-white">Vives</span>. 
+        I am expanding this program with a transition program to <span className="px-1 text-white">a master at KU Leuven</span>.{" "}
           <span className="px-1 text-white">
-            beautiful and joyful digital experiences. Besides design, I love
-            music, games and travelling.
+
           </span>
         </h1>
       </div>
