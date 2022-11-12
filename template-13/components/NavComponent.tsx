@@ -40,7 +40,7 @@ export default function NavComponent() {
   return (
     <nav className="flex backdrop-blur-md bg-black/50 py-5 sticky top-0 z-50 justify-between px-10 w-full items-center">
       <div className="h-10 pt-4">
-        <img src="logo.svg" alt="logo" />
+        {/*<img src="logo.svg" alt="logo" />*/}
       </div>
       <div className="  sm:hidden">
         <>

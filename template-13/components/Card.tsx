@@ -3,9 +3,13 @@ import React from "react";
 interface Props {
   rev: string;
   image: string;
+  datah1: string;
+  datap: string;
+  databtnhref: string;
+  datasmall: string;
 }
 
-export default function Card({ rev, image }: Props) {
+export default function Card({ rev, image, datah1, datap, databtnhref, datasmall }: Props) {
   return (
     <div
       className={`${rev} flex items-end  my-3 max-w-5xl flex-wrap md:flex-nowrap px-4`}
@@ -17,16 +21,20 @@ export default function Card({ rev, image }: Props) {
           width="500"
           height="500"
           className="w-full"
+          style={{
+            borderRadius: 20
+          }}
         />
       </div>
       <div className="mx-3 max-w-xl md:max-w-sm lg:max-w-xl">
-        <p className="uppercase">Real estate Template </p>
+        <p className="uppercase">{datasmall}</p>
         <h1 className="font-WorkSansSemiBold text-2xl md:text-xl lg:text-2xl ">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices
-          lorem non feugiat egestas amet.
+          {datah1}
         </h1>
-        <p className="">Website Design</p>
-        <button className="hover:bg-[#BC3CD8] px-6 py-2 border rounded-full ">
+          <p className="">
+            {datap}
+          </p>
+        <button onClick={ () => window.open(databtnhref, "_blank") } className="hover:bg-[#BC3CD8] px-6 py-2 border rounded-full ">
           View work
         </button>
       </div>

@@ -12,7 +12,7 @@ export default function About() {
           A bit <span className="text-white">about me</span>
         </h1>
         <h1 className="max-w-3xl text-3xl text-gray-500">
-        I am a student of <span className="px-1 text-white">applied computer science</span>.
+        I am a student<span className="px-1 text-white"> applied computer science</span>.
         I am often involved in developing <span className="px-1 text-white">software projects</span>. 
         In the past I already completed an applied computer science course at <span className="px-1 text-white">Vives</span>. 
         I am expanding this program with a transition program to <span className="px-1 text-white">a master at KU Leuven</span>.{" "}
@@ -36,7 +36,7 @@ export default function About() {
             <div className="bg-gradient-to-t from-black to-[#fff0] w-screen h-[120px]"></div>
           </div>
 
-          <img src="Horizontal.png" alt="Image" width="400" height="400" />
+          <img src="me.jpg" alt="Image" width="400" height="400" />
         </div>
       </>
     </div>

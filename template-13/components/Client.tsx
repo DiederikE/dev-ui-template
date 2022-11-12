@@ -2,12 +2,12 @@
 import React from "react";
 
 export default function Client() {
-  const image = ["/Airbnb.svg", "/FedEx.svg", "/Google.svg", "/Microsoft.svg"];
+  const image = ["/viveswhite.png", "/kuleuvenwhite.png", "/delawarewhite.png", "/codewolfwhite.png"];
   return (
     <div className="container mx-auto px-5 text-xl flex flex-col items-start">
       <h1 className="uppercase text-start text-3xl py-5 font-WorkSansSemiBold text-gray-500">
         Some{" "}
-        <span className="text-white">of the clients I have designed for</span>
+        <span className="text-white">of the organizations where I gained experience.</span>
       </h1>
 
       <div className="flex justify-between px-5 container mx-auto flex-wrap py-5">

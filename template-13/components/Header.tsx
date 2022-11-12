@@ -11,9 +11,8 @@ export default function Header() {
             <span>
               I'm a student
               <span className="px-2 font-WorkSansSemiBold text-white">
-                applied computer science
+                 {" "}applied computer science
               </span>
-                
             </span>
             <>
               @ KU Leuven
