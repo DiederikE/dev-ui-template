@@ -17,7 +17,7 @@ export default function Card({ rev, image, datah1, datap, databtnhref, datasmall
       <div>
         <img
           src={image}
-          alt="placeholder.png"
+          alt="image of work"
           width="500"
           height="500"
           className="w-full"
